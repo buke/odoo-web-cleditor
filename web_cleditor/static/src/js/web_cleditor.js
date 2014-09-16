@@ -36,7 +36,6 @@ openerp.web_cleditor = function(instance) {
         '<input type="hidden" name="session_id" value="' + instance.session.session_id + '" />' +
         '<input type="hidden" name="model" value="' + "ir.ui.menu" + '" />' +
         '<input type="hidden" name="id" value="' + 0 + '" />' +
-        '<input type="hidden" name="id" value="' + 0 + '" />' +
         '<input type="hidden" name="callback" value="' + hiddenFrameName + '" />' +
         '</form> </td></tr>' +
         '<tr><td>' + _t('Or enter URL:')+ ' </td></tr>' +
